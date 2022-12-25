@@ -60,8 +60,8 @@
 
 ## ✅ Экзаменационный билет
 
-В качестве экзаменационного билета был выбран [билет №18](https://github.com/stankin/inet-2022/wiki/exam18).
+В качестве экзаменационного билета был выбран [билет №29](https://github.com/stankin/inet-2022/wiki/exam29).
 
-Личный [вклад](https://github.com/stankin/inet-2022/wiki/exam18/_compare/b7a1f4bcfd2403197adad64763db8def4d4a4e34...bc88d5f03bd7af9d6e257d24d2ef2e9b92d97b7f) в экзаменационный билет.
+Личный [вклад](https://github.com/stankin/inet-2022/wiki/exam29/_compare/745e9de7839037e70f15e85c0416f342bdf32683...cd5e6d4e1ee95d0f2f0f301ed40018358790506c) в экзаменационный билет.
 
 
