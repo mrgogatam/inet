@@ -55,8 +55,8 @@
    
 ## ✅ Лабораторная работа № 3
 Работа с Cisco Packet Tracer:
-1. [Отчет](https://github.com/Tsyreniao/inet/blob/main/src/report.pdf).
-2. [Сценарий Cisco Packet Tracer](https://github.com/Tsyreniao/inet/blob/main/src/CiscoFile.pka).
+1. [Отчет](https://github.com/mrgogatam/inet/blob/main/Гогаев_лаба_3.pdf).
+2. [Сценарий Cisco Packet Tracer](https://github.com/mrgogatam/inet/blob/main/Сценарий%20для%20CPT%2C%20Гогаев_3_лаба.pka).
 
 ## ✅ Экзаменационный билет
 
