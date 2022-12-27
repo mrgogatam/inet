@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Modak', cursive;
+  text-align: center;
+  color: #fff;
+}
+
+.up {
+  background: #000;
+  width: auto;
+  height: 750px;
+}
+
+.text {
+  margin-top: 0px;
+  background: url(./img/fon.jpeg);
+  font-size: 50px;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: marsi 18s 1s infinite ease-in-out;
+  margin: 229px 0 254px 0;
+}
+
+.text p {
+  margin: 0;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border: 5px solid rgba(150, 150, 150, 0.4);
+  border-radius: 50%;
+  border-top-color: rgba(150, 150, 150);
+  animation: circle 2s 1s infinite linear;
+}
+
+.mid {
+  background-color: #000;
+  display: flex;
+}
+
+.mid li,
+p {
+  background: url(./img/fon.jpeg);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: marsi 20s 2s infinite ease-in-out;
+}
+
+.foot {
+  padding-top: 20px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footCont {
+  padding-top: 17px;
+}
+
+.footCont p {
+  background: url(./img/fon.jpeg);
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: marsi 28s 5s infinite ease-in-out;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.lab {
+  justify-content: space-between;
+}
+
+.lab1,
+.lab3 {
+  width: 360px;
+  margin: 0 5px;
+}
+
+.lab2 {
+  width: 750px;
+  margin: 0 10px;
+}
+
+.rounded {
+  counter-reset: li;
+  list-style: none;
+  font: 14px "Trebuchet MS", "Lucida Sans";
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  margin-left: 15px;
+}
+
+.rounded a,
+.foot a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.rounded li {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  margin: .5em 0;
+  background: #DAD2CA;
+  color: #444;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: .3s ease-out;
+}
+
+.rounded li:hover {
+  background: #E9E4E0;
+}
+
+.rounded li:hover:before {
+  transform: rotate(360deg);
+}
+
+.rounded li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #8FD4C1;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+
+@keyframes marsi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
